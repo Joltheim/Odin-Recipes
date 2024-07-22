@@ -1,0 +1,91 @@
+body {
+    color: white;
+    background-color: black;
+    margin: auto;
+    text-align: center;
+    height: 100vh;
+    font-size: 1.2rem;
+}
+
+#details-layout {
+    margin: auto;
+    padding: 3%;
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 5%;
+    column-gap: 5%;
+}
+
+#grid-1 {
+    grid-column-start: 1;
+}
+
+#grid-2, #grid-4 {
+    grid-column-start: 2;
+    border: 10px solid white;
+    text-align:justify;
+    padding: 20px; 
+    border-radius: 30px;
+}
+
+#grid-3 {
+    padding: 5%;
+    border: 10px solid white;
+    border-radius: 30px;
+    text-align: justify;
+}
+
+img {
+    width: 400px;
+    height: 300px;
+    border-radius: 30px;
+}
+
+img#redirect:hover {
+    transition: 300ms;
+    transform:scale(105%);
+    border: 5px solid rgb(0, 157, 255);
+}
+
+.giphy-embed {
+    border: 10px solid rgb(0, 157, 255);
+    width: 400px;
+    height: 225px;
+}
+
+#Recipe-Box {
+    margin: auto;
+    list-style: none;
+    width: 50%;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    flex-direction: row;
+}
+
+.giphy-embed {
+    display: none;
+    position: fixed;
+    left: 40%;
+    top: 40%;
+}
+
+#credit a:hover .giphy-embed {
+    display: block;
+}
+
+#credit {
+    padding: 20px;
+}
+
+a {
+    font-size: 1.8rem;
+}
+
+a:hover {
+    color:rgb(0, 157, 255);
+}
+
+#title {
+    margin-top: 3%;
+}
